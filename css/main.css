@@ -14,7 +14,7 @@ body {
 
 .mainContent {
     background-color: #fff;
-    width: 100%;
+    width: 1171px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -22,6 +22,7 @@ body {
 
 .sideBar > img {
     width: 70px;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -37,6 +38,7 @@ body {
         width: 350px;
     }
 }
+
 
 
 .header_1 {
@@ -80,7 +82,6 @@ body {
 .search {
     padding: 0;
     margin: 0;
-    text-align: right;
 }
 
 .logo {
@@ -89,10 +90,14 @@ body {
 }
 
 .logo > img {
-    margin-left: -15px;
+    margin: 0 0 0 0;
     padding: 0;
 }
 
+.burger {
+    display: none;
+    position: absolute;
+}
 
 
 .header_2 {
@@ -516,6 +521,14 @@ body {
 
 
 
+.leftSideMore {
+    width: 730px;
+}
+
+.rightSideMore {
+    width: 350px;
+}
+
 .head {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -693,14 +706,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
-    margin: 0 0 17px 15px;
+    margin: 0 0 17px 0;
 }
 
 .moreMoreText {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin: 0 15px 17px 0;
+    margin: 0 0 17px 0;
     color: #888;
 }
 
@@ -711,6 +724,7 @@ body {
 .oneMoreBlock {
     margin: 0 0 40px 0;
     padding: 0;
+    width: 255px;
 }
 
 .oneMoreBlock > img {
@@ -736,6 +750,10 @@ body {
     font-size: 12px;
     color: #888;
     border-bottom: 1px solid rgba(136, 136, 136, .35);
+}
+
+.looksLikeBlock {
+    width: 170px;
 }
 
 .looksLikesTextBlock {
@@ -772,6 +790,15 @@ body {
     margin: 0;
 }
 
+.actionTextExtra {
+    padding: 16px 15px 35px 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
 .actionData {
     padding: 12px 20px;
     margin: 0;
@@ -786,6 +813,11 @@ body {
 .oneActionBlock {
     margin: 0 0 40px 0;
     padding: 0;
+    width: 250px;
+}
+
+.onePopularBlock {
+    width: 350px;
 }
 
 .onePopularBlock > p {
@@ -808,7 +840,7 @@ body {
 
 .bottomNav > ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     padding: 20px 40px;
     margin: 0;
@@ -946,12 +978,6 @@ body {
     border-bottom: 1px solid rgba(0, 107, 180, .2);
 }
 
-.upIQ > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .footerText {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -959,6 +985,8 @@ body {
     color: #888;
     margin: 0;
     padding: 0;
+    width: 50%;
+    text-align: center;
 }
 
 .footer {

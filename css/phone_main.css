@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+    .logo > img {
+        width: 150px;
+    }
+
+    .search > img {
+        width: 40px;
+    }
+
+    .menuList {
+        display: none;
+        position: absolute;
+    }
+
+    .burgerMenu > img {
+        width: 18px;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+    }
+
+    .phoneMenu {
+        display: none;
+    }
+}
